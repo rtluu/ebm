@@ -1,0 +1,12 @@
+header{
+    position: fixed;
+    z-index: 3;
+
+    .nav{
+        padding: 1.5rem 2rem;
+        a{
+            padding: 0.5rem;
+        }
+    }
+}
+

@@ -1,0 +1,28 @@
+.hero-block{
+    overflow: hidden;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    .hero-headline{
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 2;
+    }
+
+    .hero-tint{
+        background: rgba(157,179,195,0.3);
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+    .gatsby-image-wrapper{
+        min-height: 100vh;
+    }
+}
