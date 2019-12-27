@@ -1,9 +1,17 @@
+@font-face {
+  font-family: Aquatico;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Aquatico.woff2") format("woff2"), url("../fonts/Aquatico.woff") format("woff");
+  font-display: swap;
+}
+
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
+  font-family: Aquatico;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
