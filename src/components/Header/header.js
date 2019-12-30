@@ -11,6 +11,13 @@ const Header = ({ siteTitle }) => (
       <Link to="/" >
         <HeaderImage />
       </Link>
+
+      <div className="page-options">
+        <Link to="/about/">About</Link>
+        <Link to="/services/">Services</Link>
+        <Link to="/portfolio/">Portfolio</Link>
+        <Link to="/connect/">Connect</Link>
+      </div>
     </div>
   </header>
 )
