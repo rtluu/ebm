@@ -6,12 +6,13 @@
   font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font-family: Aquatico;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -238,9 +239,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "Aquatico" !important;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;

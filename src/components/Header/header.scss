@@ -1,11 +1,28 @@
 header{
-    position: fixed;
+    position: absolute;
     z-index: 3;
+    width: 100%;
 
     .nav{
-        padding: 1.5rem 2rem;
-        a{
-            padding: 0.5rem;
+        display: flex;
+        align-items: space-between;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+
+        .page-options{
+            display: flex;
+            flex-direction: row;
+            margin: 1.5rem 1.5rem;
+
+            a{
+                color: white;
+                padding: 0.5rem;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }

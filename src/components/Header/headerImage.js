@@ -9,7 +9,7 @@ const HeaderImage = () => {
     query {
       placeholderImage: file(relativePath: { eq: "ebm-logo.png" }) {
         childImageSharp {
-            fixed(width: 139, height: 124) {
+            fixed(width: 116, height: 104) {
             ...GatsbyImageSharpFixed
           }
         }
