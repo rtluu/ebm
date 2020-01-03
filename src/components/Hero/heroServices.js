@@ -15,7 +15,7 @@ const HeroServices = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectFit="cover" />
+  return <Img className="services" fluid={data.placeholderImage.childImageSharp.fluid} objectFit="cover" />
 }
 
 export default HeroServices

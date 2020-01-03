@@ -4,8 +4,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroHome from "../components/Hero/heroHome"
+import CardAbout from "../components/PageCards/cardAbout"
+import CardPortfolio from "../components/PageCards/cardPortfolio"
+import CardServices from "../components/PageCards/cardServices"
 import "../components/Hero/hero.scss"
-import "../components/primary.scss"
+import "../styles/index.scss"
 
 const IndexPage = () => (
   <Layout>
@@ -17,9 +20,36 @@ const IndexPage = () => (
     </div>
     <div className="primary-block">
       <h2 className="primary-header">Who we are</h2>
-      <h4 className="primary-intro">Events by Mosaic is a full service event planning studio based in Washington, DC.
-It is your big moment, we’re prepared to bring your vision to reality.</h4>
+      <h4 className="primary-intro">Events by Mosaic is a full service event planning studio based in Washington, DC. It is your big moment, we’re prepared to bring your vision to reality.</h4>
+      <div className="page-cards">
+        <Link to="/about/">
+          <div className="card-box">
+            <div className="blue-tint" />
+            <CardAbout />
+            <button>ABOUT</button>
+          </div>
+        </Link>
+        <Link to="/portfolio/">
+          <div className="card-box">
+            <div className="blue-tint" />
+            <CardPortfolio />
+            <button>PORTFOLIO</button>
+          </div>
+        </Link>
+        <Link to="/services/">
+          <div className="card-box">
+            <div className="blue-tint" />
+            <CardServices />
+            <button>SERVICES</button>
+          </div>
+        </Link>
+      </div>
     </div>
+    <div className="testimonial-block">
+
+      <h4>Kristina is a phenomenal event planner! She ensured that our wedding day was everything we envisioned and dreamed for. She was both intentional and personal with her work and planned with grace and diligence.</h4>
+    </div>
+
 
     <Link to="/about/">About</Link>
     <Link to="/services/">Services</Link>

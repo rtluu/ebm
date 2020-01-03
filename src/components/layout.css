@@ -59,6 +59,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  font-family: "Roboto" !important;
 }
 a:active,
 a:hover {
@@ -146,6 +147,7 @@ select {
 button,
 html [type="button"] {
   -webkit-appearance: button;
+  font-family: "Roboto" !important;
 }
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -279,7 +281,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 0.75rem;
   color: inherit;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1.5rem;
@@ -295,7 +297,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 0.75rem;
   color: inherit;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -311,7 +313,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -327,7 +329,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -388,6 +390,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  font-family: "Roboto" !important;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
