@@ -7,6 +7,8 @@ import HeroHome from "../components/Hero/heroHome"
 import CardAbout from "../components/PageCards/cardAbout"
 import CardPortfolio from "../components/PageCards/cardPortfolio"
 import CardServices from "../components/PageCards/cardServices"
+import Testimonial from "../components/Testimonial/testimonial"
+import Instagram from "../components/Instagram/instagram"
 import "../components/Hero/hero.scss"
 import "../styles/index.scss"
 
@@ -45,12 +47,8 @@ const IndexPage = () => (
         </Link>
       </div>
     </div>
-    <div className="testimonial-block">
-
-      <h4>Kristina is a phenomenal event planner! She ensured that our wedding day was everything we envisioned and dreamed for. She was both intentional and personal with her work and planned with grace and diligence.</h4>
-    </div>
-
-
+    <Testimonial />
+    <Instagram />
     <Link to="/about/">About</Link>
     <Link to="/services/">Services</Link>
   </Layout>

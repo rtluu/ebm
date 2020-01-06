@@ -1,0 +1,89 @@
+.instagram-block{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 7rem 0;
+
+    .instagram-intro{
+        align-items: center;
+        color: #4E6A7E;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 2rem;
+        position: relative;
+        flex-wrap: wrap;
+
+        .divider{
+            align-self: stretch;
+            background: #4E6A7E;
+            border-radius: 0.0675rem;
+            min-height: 100%;
+            margin: 0 0.75rem;
+            width: 0.0675rem;
+        }
+
+        a{
+            text-decoration: none;
+
+            &:hover{
+                .insta-link{
+                    &:after{
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .insta-link{
+                align-items: center;
+                display: flex;
+                position: relative;
+                flex-direction: row;
+    
+                &:after{
+                    background: #4E6A7E;
+                    bottom: -0.25rem;
+                    content: '';
+                    height: 0.0625rem;
+                    position: absolute;
+                    opacity: 0;
+                    transition: all 0.2s;
+                    width: 100%;
+                }
+    
+                .insta-icon{
+                    margin-bottom: -0.125rem;
+                    margin-right: 0.25rem;
+                    position: relative;
+                    height: 1.25rem;
+                    width: 1.25rem;
+                }
+    
+                h3{
+                   color: #4E6A7E;
+                }
+            }
+        }    
+    }
+
+    .instagram-pics{
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+        flex-wrap: wrap;
+
+        .insta-link{
+            margin: 0.5rem;
+            min-height: 10rem;
+            min-width: 10rem;
+            position: relative;
+
+            &:hover{
+                .blue-tint{
+                    background: rgba(157,179,195,0.2);
+                }
+            }
+        }
+    }
+}

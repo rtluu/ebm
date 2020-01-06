@@ -20,7 +20,7 @@
         display: grid;
         grid-column-gap: 2.33%;
         grid-template-columns: 31% 31% 31%;
-        margin: 3rem 0;
+        margin: 4rem 0;
         max-width: 50rem;
         width: 90%;
 
@@ -65,9 +65,4 @@
     top: 0;
     z-index: 1;
     transition: all 0.2s;
-}
-
-.testimonial-block{
-    background: #9DB3C3;
-    padding: 3rem 0;
 }
