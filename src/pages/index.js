@@ -9,6 +9,7 @@ import CardPortfolio from "../components/PageCards/cardPortfolio"
 import CardServices from "../components/PageCards/cardServices"
 import Testimonial from "../components/Testimonial/testimonial"
 import Instagram from "../components/Instagram/instagram"
+import ConnectCTA from "../components/ConnectCTA/connectCTA"
 import "../components/Hero/hero.scss"
 import "../styles/index.scss"
 
@@ -49,6 +50,7 @@ const IndexPage = () => (
     </div>
     <Testimonial />
     <Instagram />
+    <ConnectCTA />
     <Link to="/about/">About</Link>
     <Link to="/services/">Services</Link>
   </Layout>
