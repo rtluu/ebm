@@ -10,6 +10,7 @@ import CardServices from "../components/PageCards/cardServices"
 import Testimonial from "../components/Testimonial/testimonial"
 import Instagram from "../components/Instagram/instagram"
 import ConnectCTA from "../components/ConnectCTA/connectCTA"
+import EBMLogo from "../images/ebm-logo.inline.svg";
 import "../components/Hero/hero.scss"
 import "../styles/index.scss"
 
@@ -17,9 +18,14 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Events by Mosaic" />
     <div className="hero-block">
-      <h1 className="hero-headline">LET'S PLAN YOUR MASTERPIECE</h1>
-      <div className="hero-tint" />
-      <HeroHome />
+      <div className="hero-logo">
+        <EBMLogo />
+      </div>
+      <div className="hero-body">
+
+        <div className="hero-tint" />
+        <HeroHome />
+      </div>
     </div>
     <div className="primary-block">
       <h2 className="primary-header">Who we are</h2>
