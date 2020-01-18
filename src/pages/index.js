@@ -22,14 +22,14 @@ const IndexPage = () => (
         <EBMLogo />
       </div>
       <div className="hero-body">
-
         <div className="hero-tint" />
         <HeroHome />
+        <h1 className="hero-headline">Event Planning + Design</h1>
       </div>
     </div>
     <div className="primary-block">
-      <h2 className="primary-header">Who we are</h2>
       <h4 className="primary-intro">Events by Mosaic is a full service event planning studio based in Washington, DC. It is your big moment, we’re prepared to bring your vision to reality.</h4>
+      <div className="divider" />
       <div className="page-cards">
         <Link to="/about/">
           <div className="card-box">
