@@ -11,7 +11,7 @@ const Connect = () => (
         <SEO title="Events by Mosaic Connect" />
         <div className="hero-block">
             <h1 className="hero-headline">CONNECT</h1>
-            <div className="hero-tint" />
+            <div className="dark-blue-tint" />
             <HeroConnect />
         </div>
         <h1>Connect</h1>

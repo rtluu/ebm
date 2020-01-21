@@ -1,22 +1,27 @@
-import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import HeroPortfolio from "../components/Hero/heroPortfolio"
-import "../components/Hero/hero.scss"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import HeroPortfolio from "../components/Hero/heroPortfolio";
+import EBMIcon from "../images/ebm-icon.inline.svg";
+import "../components/Hero/hero.scss";
 
 const Portfolio = () => (
     <Layout>
-        <SEO title="Events by Mosaic Portfolio" />
+        <SEO title="Portfolio | Events by Mosaic" />
         <div className="hero-block">
-            <h1 className="hero-headline">PORTFOLIO</h1>
-            <div className="hero-tint" />
-            <HeroPortfolio />
+            <div className="hero-head">
+                <div className="hero-icon">
+                    <EBMIcon />
+                </div>
+                <h2>Portfolio</h2>
+            </div>
+            <div className="hero-body">
+                <h1 className="hero-headline">Our couples</h1>
+                <div className="dark-blue-tint" />
+                <HeroPortfolio />
+            </div>
         </div>
-        <h1>Portfolio</h1>
-        <p>What we do</p>
-        <Link to="/">Home</Link>
     </Layout>
 )
 

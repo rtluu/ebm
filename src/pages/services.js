@@ -1,22 +1,27 @@
-import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import HeroServices from "../components/Hero/heroServices"
-import "../components/Hero/hero.scss"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import HeroServices from "../components/Hero/heroServices";
+import EBMIcon from "../images/ebm-icon.inline.svg";
+import "../components/Hero/hero.scss";
 
 const Services = () => (
     <Layout>
-        <SEO title="Events by Mosaic Services" />
+        <SEO title="Services | Events by Mosaic" />
         <div className="hero-block">
-            <h1 className="hero-headline">SERVICES</h1>
-            <div className="hero-tint" />
-            <HeroServices />
+            <div className="hero-head">
+                <div className="hero-icon">
+                    <EBMIcon />
+                </div>
+                <h2>Services</h2>
+            </div>
+            <div className="hero-body">
+                <h1 className="hero-headline">What we do</h1>
+                <div className="dark-blue-tint" />
+                <HeroServices />
+            </div>
         </div>
-        <h1>Services</h1>
-        <p>What we do</p>
-        <Link to="/">Home</Link>
     </Layout>
 )
 

@@ -1,37 +1,39 @@
 .instagram-block{
+    background: rgba(250,250,250,1);
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 7rem 0;
+    padding: 8rem 0;
 
     .instagram-intro{
         align-items: center;
         color: #4E6A7E;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        margin-bottom: 2rem;
         position: relative;
         flex-wrap: wrap;
 
-        .divider{
-            align-self: stretch;
-            background: #4E6A7E;
-            border-radius: 0.0675rem;
-            min-height: 100%;
-            margin: 0 0.75rem;
-            width: 0.0675rem;
+        .instagram-headline{
+            font-weight: 300;
+        }
+
+        &.head{
+            margin-bottom: 1.5rem;
+        }
+
+        &.foot{
+            margin-top: 1.75rem;
         }
 
         a{
             text-decoration: none;
 
             &:hover{
-                .insta-link{
-                    &:after{
-                        opacity: 1;
-                    }
+
+                .insta-profile{
+                    text-decoration: underline;
                 }
             }
 
@@ -40,28 +42,19 @@
                 display: flex;
                 position: relative;
                 flex-direction: row;
-    
-                &:after{
-                    background: #4E6A7E;
-                    bottom: -0.25rem;
-                    content: '';
-                    height: 0.0625rem;
-                    position: absolute;
-                    opacity: 0;
-                    transition: all 0.2s;
-                    width: 100%;
-                }
-    
+
                 .insta-icon{
                     margin-bottom: -0.125rem;
-                    margin-right: 0.25rem;
+                    margin-right: 0.375rem;
                     position: relative;
                     height: 1.25rem;
                     width: 1.25rem;
                 }
     
-                h3{
+                .insta-profile{
                    color: #4E6A7E;
+                   margin-top: -0.0675rem;
+                   transition: all 0.1s;
                 }
             }
         }    

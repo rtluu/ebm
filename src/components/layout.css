@@ -1,16 +1,24 @@
 @font-face {
-  font-family: Aquatico;
+  font-family: Brandon;
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/Aquatico.woff2") format("woff2"), url("../fonts/Aquatico.woff") format("woff");
+  src: url("../fonts/Brandon.woff2") format("woff2"), url("../fonts/Brandon.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
-  font-family: WildYouth;
+  font-family: GreatVibes;
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/WildYouth.woff2") format("woff2"), url("../fonts/WildYouth.woff") format("woff");
+  src: url("../fonts/GreatVibes.woff2") format("woff2"), url("../fonts/GreatVibes.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Brandon;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Brandon.woff2") format("woff2"), url("../fonts/Brandon.woff") format("woff");
   font-display: swap;
 }
 
@@ -59,7 +67,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  font-family: "Roboto" !important;
+  font-family: "Brandon" !important;
 }
 a:active,
 a:hover {
@@ -147,7 +155,7 @@ select {
 button,
 html [type="button"] {
   -webkit-appearance: button;
-  font-family: "Roboto" !important;
+  font-family: "Brandon" !important;
 }
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -243,23 +251,23 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: "Aquatico" !important;
+  font-family: "GreatVibes" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 5rem;
   line-height: 1.5;
 }
 h2 {
-  margin: 0 0 1rem 0;
+  margin: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: "WildYouth" !important;
-  font-weight: 400;
+  font-family: "Brandon" !important;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.25;
 }
 h3 {
@@ -269,7 +277,7 @@ h3 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: "Aquatico" !important;
+  font-family: "Brandon" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1.375rem;
@@ -282,11 +290,11 @@ h4 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: "Roboto" !important;
+  font-family: "Brandon" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1.25rem;
-  line-height: 1.25;
+  line-height: 2rem;
 }
 h5 {
   margin: 0;
@@ -295,7 +303,7 @@ h5 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: "Aquatico" !important;
+  font-family: "Brandon" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -308,7 +316,7 @@ h6 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: "Roboto" !important;
+  font-family: "Brandon" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -369,7 +377,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  font-family: "Roboto" !important;
+  font-family: "Brandon" !important;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

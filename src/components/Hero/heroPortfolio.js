@@ -15,7 +15,7 @@ const HeroPortfolio = () => {
     }
   `)
 
-  return <Img className="portfolio-flip" fluid={data.placeholderImage.childImageSharp.fluid} objectFit="cover" />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectFit="cover" />
 }
 
 export default HeroPortfolio

@@ -1,0 +1,28 @@
+nav{
+    background: white;
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+
+    .page-options{
+        display: inline-block;
+        margin: 0 0 0 2.1875rem;
+
+        a{  
+            color: #707070;
+            font-size: 0.675rem;
+            margin: 0 2rem;
+            padding: 0.5rem;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
