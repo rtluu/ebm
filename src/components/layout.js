@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Nav from "./Nav/nav"
+import Footer from "./Nav/footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -27,10 +28,8 @@ const Layout = ({ children }) => {
       <Nav siteTitle={data.site.siteMetadata.title} />
       <div className="main-container">
         <main>{children}</main>
-        <footer>
-          © Events by Mosaic {new Date().getFullYear()}
-        </footer>
       </div>
+      <Footer />
     </>
   )
 }

@@ -9,11 +9,24 @@
         max-width: 10rem;
     }
 
-    .hero-icon{
-        align-self: center;
-        max-width: 4rem;
-        margin: 4rem 0 1rem 0;
+    .hero-head{
+        align-items: center;
+        display: flex;
+        margin: 4rem 0 1.75rem 0;
+        flex-direction: column;
+        justify-content: center;
+
+        .hero-icon{
+            max-width: 3.25rem;
+            margin: 0 0 0 0;
+        }
+
+        h2{
+            color: #707070;
+        }
     }
+
+    
 
     .hero-body{
         max-height: 32rem;
@@ -31,23 +44,8 @@
             z-index: 2;
         }
     
-        .hero-tint{
-            background: rgba(157,179,195,0.5);
-            bottom: 0;
-            left: 0;
-            position: absolute;
-            right: 0;
-            pointer-events: none;
-            top: 0;
-            z-index: 1;
-        }
-    
-        .portfolio-flip{
-            transform: scaleX(-1);
-        }
-    
         .gatsby-image-wrapper{
-
+            top: 50%;
         }
 
     }
