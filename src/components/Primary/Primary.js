@@ -8,8 +8,6 @@ import "./primary.scss"
 const Primary = () => (
 
     <div className="primary-block">
-        <h4 className="primary-intro">Events by Mosaic is a full service event planning studio based in Washington, DC. It's your big moment and we're ready to bring your vision to reality.</h4>
-        <div className="divider" />
         <div className="page-cards">
             <Link to="/about/">
                 <div className="card-box">

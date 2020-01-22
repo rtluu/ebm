@@ -1,0 +1,22 @@
+.team-block{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 5rem auto;
+    max-width: 50rem;
+    width: 90%;
+
+    .teammate{
+        width: 50%;
+        margin: 0 2rem;
+
+        .teammate-name{
+            color: #4E6A7E;
+            margin: 1.75rem 0 1.25rem 0;
+            text-align: center;
+        }
+
+        .teammate-description{
+            color: #C0C0C0;
+        }
+    }
+}

@@ -42,7 +42,7 @@ const Instagram = () => (
                     <div className="insta-icon">
                         <InstaIcon />
                     </div>
-                    <h3 className="insta-profile">eventsbymosaic</h3>
+                    <h4 className="insta-profile">eventsbymosaic</h4>
                 </div>
             </a>
         </div>

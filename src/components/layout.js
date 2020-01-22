@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Nav from "./Nav/nav"
-import Footer from "./Nav/footer"
+import Footer from "./Footer/footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {

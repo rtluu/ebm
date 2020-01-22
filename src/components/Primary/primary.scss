@@ -2,28 +2,13 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 8.5rem 0;
+    margin: 0 0 8.5rem 0;
     justify-content: center;
     text-align: center;
 
     .primary-header{
         color: #E9CDCE;
     }
-
-    .primary-intro{
-        color: #AFAFAF;
-        max-width: 40rem;
-        width: 90%;
-    }
-
-    .divider{
-        background: #EEEEEE;
-        height: 0.0675rem;
-        margin: 5rem 0;
-        max-width: 18.75rem;
-        width: 75%;
-    }
-
     .page-cards{
         display: grid;
         grid-column-gap: 2.33%;

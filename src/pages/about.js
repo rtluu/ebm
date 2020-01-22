@@ -1,10 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import HeroAbout from "../components/Hero/heroAbout"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Intro from "../components/Intro/intro";
+import HeroAbout from "../components/Hero/heroAbout";
 import EBMIcon from "../images/ebm-icon.inline.svg";
-import "../components/Hero/hero.scss"
+import Team from "../components/Team/team";
+import "../components/Hero/hero.scss";
 
 const About = () => (
   <Layout>
@@ -22,8 +24,8 @@ const About = () => (
         <HeroAbout />
       </div>
     </div>
-
-    <Link to="/">Home</Link>
+    <Intro text="Great events start with great collaboration. We are not only a team, but partners in bringing events to life throught the DMV and beyond. Together we have over a decade of experience in planning and orchestrating events that run the gamut." />
+    <Team />
   </Layout>
 )
 
