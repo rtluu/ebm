@@ -16,7 +16,7 @@ const About = () => (
         <div className="hero-icon">
           <EBMIcon />
         </div>
-        <h2>About</h2>
+        <h3>ABOUT</h3>
       </div>
       <div className="hero-body">
         <h1 className="hero-headline">Who we are</h1>

@@ -42,6 +42,10 @@
             transform: translate(-50%,-50%);
             width: 90%;
             z-index: 2;
+
+            .and{
+                font-size: 3.5rem !important;
+            }
         }
     
         .gatsby-image-wrapper{

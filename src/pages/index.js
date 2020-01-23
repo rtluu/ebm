@@ -23,7 +23,7 @@ const IndexPage = () => (
       <div className="hero-body">
         <div className="dark-blue-tint" />
         <HeroHome />
-        <h1 className="hero-headline">Event Planning + Design</h1>
+        <h1 className="hero-headline">Event Planning <span className="and">&</span> Design</h1>
       </div>
     </div>
     <Intro text="Events by Mosaic is a full service event planning studio based in Washington, DC. It's your big moment and we're ready to bring your vision to reality." />

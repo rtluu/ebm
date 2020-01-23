@@ -14,10 +14,10 @@ const Inquire = () => (
                 <div className="hero-icon">
                     <EBMIcon />
                 </div>
-                <h2>Inquire</h2>
+                <h3>INQUIRE</h3>
             </div>
             <div className="hero-body">
-                <h1 className="hero-headline">Let<div className="spacer" />'s chat</h1>
+                <h1 className="hero-headline">Contact us</h1>
                 <div className="dark-blue-tint" />
                 <HeroInquire />
             </div>

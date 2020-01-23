@@ -15,8 +15,14 @@
         position: relative;
         flex-wrap: wrap;
 
+
         .instagram-headline{
-            font-weight: 300;
+            color: #4E6A7E;
+            margin-top: 1rem;  
+            &:hover{
+                text-decoration: underline;
+            }
+            
         }
 
         &.head{

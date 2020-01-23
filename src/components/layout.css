@@ -263,11 +263,11 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: inherit;
-  font-family: "Brandon" !important;
+  color: #4E6A7E !important;
+  font-family: "GreatVibes" !important;
   font-weight: 300;
   text-rendering: optimizeLegibility;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 1.25;
 }
 h3 {
@@ -276,11 +276,11 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: inherit;
-  font-family: "GreatVibes" !important;
+  color:  #4E6A7E !important;
+  font-family: "Brandon" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   line-height: 1.1;
 }
 h4 {
