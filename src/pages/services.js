@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Intro from "../components/Intro/intro";
+import Options from "../components/Options/options"
 import HeroServices from "../components/Hero/heroServices";
 import EBMIcon from "../images/ebm-icon.inline.svg";
 import "../components/Hero/hero.scss";
@@ -24,7 +25,7 @@ const Services = () => (
             </div>
         </div>
         <Intro text="We'll bring all of the pieces of your event together to create a living masterpiece. From save the dates to the day of, our team has got you covered." />
-
+        <Options />
     </Layout>
 )
 
