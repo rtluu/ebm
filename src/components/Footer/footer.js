@@ -1,5 +1,3 @@
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
 import React from "react";
 import PhoneIcon from "./phone-icon.inline.svg";
 import EmailIcon from "./email-icon.inline.svg";

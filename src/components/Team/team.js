@@ -1,6 +1,5 @@
 import React from "react";
 import "./team.scss";
-import Ryan from "./ryan";
 import Kristina from "./kristina";
 
 const Team = () => (
