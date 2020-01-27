@@ -4,6 +4,7 @@ module.exports = {
     description: `Events by Mosaic is a full service event planning studio based in Washington, DC.`,
     author: `@rtluu`,
   },
+  pathPrefix: "/ebm",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
