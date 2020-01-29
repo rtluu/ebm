@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Intro from "../components/Intro/intro";
+import Couples from "../components/Couples/couples"
 import HeroPortfolio from "../components/Hero/heroPortfolio";
 import EBMIcon from "../images/ebm-icon.inline.svg";
 import "../components/Hero/hero.scss";
@@ -21,6 +23,8 @@ const Portfolio = () => (
                 <HeroPortfolio />
             </div>
         </div>
+        <Intro text="We’re so fulfilled by this work because of the great people we get to work with. Thank you all for letting us be a part of your special moment." />
+        <Couples />
     </Layout>
 )
 
