@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react";
 import CoupleAC from "./coupleAC";
 import CoupleMK from "./coupleMK";
@@ -20,7 +21,7 @@ const Couples = () => (
                 <CoupleSL />
                 <div className="light-blue-tint" />
             </div>
-            <h2>S+L</h2>
+            <Link to="/weddings/sirley-lamont"><h2>S+L</h2></Link>
         </div>
         <div className="couple">
             <div className="couple-image">

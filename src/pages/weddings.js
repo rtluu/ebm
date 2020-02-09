@@ -7,7 +7,7 @@ import HeroPortfolio from "../components/Hero/heroPortfolio";
 import EBMIcon from "../images/ebm-icon.inline.svg";
 import "../components/Hero/hero.scss";
 
-const Portfolio = () => (
+const Weddings = () => (
     <Layout>
         <SEO title="Portfolio | Events by Mosaic" />
         <div className="hero-block">
@@ -15,7 +15,7 @@ const Portfolio = () => (
                 <div className="hero-icon">
                     <EBMIcon />
                 </div>
-                <h3>PORTFOLIO</h3>
+                <h3>WEDDINGS</h3>
             </div>
             <div className="hero-body">
                 <h1 className="hero-headline">Our couples</h1>
@@ -28,4 +28,4 @@ const Portfolio = () => (
     </Layout>
 )
 
-export default Portfolio
+export default Weddings
