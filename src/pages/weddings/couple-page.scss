@@ -5,9 +5,20 @@
 }
 
 .couples-grid{
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 31% 31% 31%;
-    grid-gap: 3.5%;
-    padding: 0 3.5%;
+    // box-sizing: border-box;
+    // display: grid;
+    // grid-template-columns: 31% 31% 31%;
+    // grid-gap: 3.5%;
+    // padding: 0 3.5%;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: auto !important;
+
+    .column{
+        float: left;
+        width: 33.33%;
+        .image-holder{
+            padding: 1rem;
+        }
+    }
 }

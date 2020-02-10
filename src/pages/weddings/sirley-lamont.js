@@ -33,22 +33,46 @@ const SirleyLamont = () => (
 
         <div className="couples-grid">
             <div className="column one">
-                <SL1 />
-                <SL2 />
-                <SL3 />
-                <SL4 />
+                <div className="image-holder">
+                    <SL1 />
+                </div>
+                <div className="image-holder horizontal">
+                    <SL2 />
+                </div>
+                <div className="image-holder">
+                    <SL3 />
+                </div>
+                <div className="image-holder horizontal">
+                    <SL4 />
+                </div>
             </div>
             <div className="column two">
-                <SL5 />
-                <SL6 />
-                <SL7 />
-                <SL8 />
+                <div className="image-holder horizontal">
+                    <SL5 />
+                </div>
+                <div className="image-holder">
+                    <SL6 />
+                </div>
+                <div className="image-holder horizontal">
+                    <SL7 />
+                </div>
+                <div className="image-holder">
+                    <SL8 />
+                </div>
             </div>
             <div className="column three">
-                <SL9 />
-                <SL10 />
-                <SL11 />
-                <SL12 />
+                <div className="image-holder">
+                    <SL9 />
+                </div>
+                <div className="image-holder horizontal">
+                    <SL10 />
+                </div>
+                <div className="image-holder">
+                    <SL11 />
+                </div>
+                <div className="image-holder horizontal">
+                    <SL12 />
+                </div>
             </div>
         </div>
     </Layout>
