@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-inquire-js": hot(preferDefault(require("/Users/ryanluu/Dropbox/src/ebm/src/pages/inquire.js"))),
   "component---src-pages-services-js": hot(preferDefault(require("/Users/ryanluu/Dropbox/src/ebm/src/pages/services.js"))),
   "component---src-pages-weddings-js": hot(preferDefault(require("/Users/ryanluu/Dropbox/src/ebm/src/pages/weddings.js"))),
-  "component---src-pages-weddings-sirley-lamont-js": hot(preferDefault(require("/Users/ryanluu/Dropbox/src/ebm/src/pages/weddings/sirley-lamont.js")))
+  "component---src-pages-weddings-sirley-lamont-js": hot(preferDefault(require("/Users/ryanluu/Dropbox/src/ebm/src/pages/weddings/sirley-lamont.js"))),
+  "component---src-pages-weddings-olivia-tj-js": hot(preferDefault(require("/Users/ryanluu/Dropbox/src/ebm/src/pages/weddings/olivia-tj.js")))
 }
 

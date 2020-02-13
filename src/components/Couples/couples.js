@@ -14,7 +14,7 @@ const Couples = () => (
                 <CoupleOT />
                 <div className="light-blue-tint" />
             </div>
-            <h2>O+T</h2>
+            <Link to="/weddings/olivia-tj"><h2>O+T</h2></Link>
         </div>
         <div className="couple">
             <div className="couple-image">

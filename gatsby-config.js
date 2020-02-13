@@ -5,6 +5,7 @@ module.exports = {
     author: `@rtluu`,
   },
   pathPrefix: "/ebm",
+  assetPrefix: `/ebm`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,

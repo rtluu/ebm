@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Ryan Luu <rluu34@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.18.12",
+    "gatsby": "^2.19.12",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.27",
     "gatsby-plugin-react-helmet": "^3.1.16",

@@ -30,48 +30,73 @@ const SirleyLamont = () => (
                 <h3 className="couples-headline">Sirley & Lamont</h3>
             </div>
         </div>
-
-        <div className="couples-grid">
-            <div className="column one">
-                <div className="image-holder">
-                    <SL1 />
+        <div className="content-container">
+            <div className="couples-grid">
+                <div className="column one">
+                    <div className="image-holder">
+                        <div className="image-inner">
+                            <SL1 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner horizontal">
+                            <SL2 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner">
+                            <SL3 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner horizontal">
+                            <SL4 />
+                        </div>
+                    </div>
                 </div>
-                <div className="image-holder horizontal">
-                    <SL2 />
+                <div className="column two">
+                    <div className="image-holder">
+                        <div className="image-inner horizontal">
+                            <SL5 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner">
+                            <SL6 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner horizontal">
+                            <SL7 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner">
+                            <SL8 />
+                        </div>
+                    </div>
                 </div>
-                <div className="image-holder">
-                    <SL3 />
-                </div>
-                <div className="image-holder horizontal">
-                    <SL4 />
-                </div>
-            </div>
-            <div className="column two">
-                <div className="image-holder horizontal">
-                    <SL5 />
-                </div>
-                <div className="image-holder">
-                    <SL6 />
-                </div>
-                <div className="image-holder horizontal">
-                    <SL7 />
-                </div>
-                <div className="image-holder">
-                    <SL8 />
-                </div>
-            </div>
-            <div className="column three">
-                <div className="image-holder">
-                    <SL9 />
-                </div>
-                <div className="image-holder horizontal">
-                    <SL10 />
-                </div>
-                <div className="image-holder">
-                    <SL11 />
-                </div>
-                <div className="image-holder horizontal">
-                    <SL12 />
+                <div className="column three">
+                    <div className="image-holder">
+                        <div className="image-inner">
+                            <SL9 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner horizontal">
+                            <SL10 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner">
+                            <SL11 />
+                        </div>
+                    </div>
+                    <div className="image-holder">
+                        <div className="image-inner horizontal">
+                            <SL12 />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
