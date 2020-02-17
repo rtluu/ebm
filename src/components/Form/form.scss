@@ -1,0 +1,56 @@
+.form-holder{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 100%;
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 26rem;
+        width: 80%;
+
+        .form-group{
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 2.5rem 0;
+
+           &.short{
+            max-width: 12rem;
+           }
+
+            label{
+                color: #C0C0C0;
+                font-size: 1.5rem;
+                margin: 0 0 0.75rem 0;
+
+                &.required{
+                    &:after{
+                        content: ' *';
+                        font-size: 1.25rem;
+                        position: relative;
+                    }
+                    
+                }
+            }
+
+            input{
+                border: 0;
+                border-bottom: 1px solid #C0C0C0;
+                color: #707070;
+                padding: 0.125rem;
+
+                &:placeholder{
+                    color: #C0C0C0;
+                }
+            }
+        }
+    }
+
+    button{
+        &:focus{
+            outline: default;
+        }
+    }
+}

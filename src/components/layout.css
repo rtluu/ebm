@@ -146,6 +146,9 @@ textarea {
   margin: 0;
   outline: none;
 }
+label,input{
+  font-family: "Brandon" !important;
+}
 optgroup {
   font-weight: 700;
 }
