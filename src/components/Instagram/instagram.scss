@@ -1,5 +1,4 @@
 .instagram-block{
-    background: rgba(250,250,250,1);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -8,7 +7,7 @@
 
     .instagram-intro{
         align-items: center;
-        color: #4E6A7E;
+        color: #FFC29E;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -17,7 +16,7 @@
 
 
         .instagram-headline{
-            color: #4E6A7E;
+            color: #BCBCBC;
             margin-top: 1rem;  
             &:hover{
                 text-decoration: underline;
@@ -58,7 +57,7 @@
                 }
     
                 .insta-profile{
-                   color: #4E6A7E;
+                   color: #BCBCBC;
                    margin-top: -0.0675rem;
                    transition: all 0.1s;
                 }
@@ -78,9 +77,10 @@
             min-width: 10rem;
             position: relative;
 
+
             &:hover{
-                .blue-tint{
-                    background: rgba(157,179,195,0.2);
+                .dark-blue-tint{
+                    background: rgba(88,125,113,0.1);
                 }
             }
         }
