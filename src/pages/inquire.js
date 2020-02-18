@@ -1,7 +1,9 @@
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Intro from "../components/Intro/intro";
 import HeroInquire from "../components/Hero/heroInquire";
+import Form from "../components/Form/form";
 import EBMIcon from "../images/ebm-icon.inline.svg";
 import "../components/Hero/hero.scss";
 
@@ -21,6 +23,8 @@ const Inquire = () => (
                 <HeroInquire />
             </div>
         </div>
+        <Intro text="We’re here to help and quick to respond! Give us a ping and we’ll hit the ground running to make sure you’re on your way to your big day." />
+        <Form />
     </Layout>
 )
 
