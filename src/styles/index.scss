@@ -1,5 +1,5 @@
 .light-blue-tint{
-    background: rgba(157,179,195,0.1);
+    background: rgba(88,125,113,0.025);
     bottom: 0;
     left: 0;
     position: absolute;
@@ -11,13 +11,14 @@
 }
 
 .dark-blue-tint{
-    background: rgba(157,179,195,0.35);
+    background: rgba(88,125,113,0.05);
     bottom: 0;
     left: 0;
     position: absolute;
     right: 0;
     pointer-events: none;
     top: 0;
+    transition: 0.2s all;
     z-index: 1;
 }
 

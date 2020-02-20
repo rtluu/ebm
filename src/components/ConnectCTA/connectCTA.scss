@@ -21,8 +21,8 @@
         transform: translate(-50%, -50%);
 
         .connect-button{
-            background: #F9AFB5;
-            border: 0.125rem solid #F9AFB5;
+            background: #FFC29E;
+            border: 0.125rem solid #FFC29E;
             border-radius: 0.125rem;
             color: white;
             cursor: pointer;
@@ -33,7 +33,7 @@
             &:hover{
                 background: white;
                 border: 0.125rem solid white;
-                color: #F9AFB5;
+                color: #FFC29E;
             }
         }
     }
