@@ -1,7 +1,7 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import "./nav.scss"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React, { useState } from "react";
+import "./nav.scss";
 
 const Nav = () => {
   const [menuActive, setMenuState] = useState(false);

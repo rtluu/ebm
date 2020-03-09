@@ -1,5 +1,6 @@
-import React from "react"
-import "./connectCTA.scss"
+import React from "react";
+import { Link } from "gatsby";
+import "./connectCTA.scss";
 import ConnectBg from "./connectBg";
 
 const ConnectCTA = () => (
@@ -8,9 +9,11 @@ const ConnectCTA = () => (
         <div className="dark-blue-tint" />
         <div className="connect-info">
             <h1>Let<span className="spacer" />'s plan your masterpiece!</h1>
-            <button className="connect-button">
-                <h5>GET STARTED</h5>
-            </button>
+            <Link to="/inquire/">
+                <button className="connect-button">
+                    <h5>GET STARTED</h5>
+                </button>
+            </Link>
         </div>
     </div>
 )
