@@ -13,21 +13,21 @@ const Primary = () => (
                 <div className="card-box">
                     <div className="light-blue-tint" />
                     <CardAbout />
-                    <button>ABOUT</button>
+                    <button><h5>ABOUT</h5></button>
                 </div>
             </Link>
             <Link to="/portfolio/">
                 <div className="card-box">
                     <div className="light-blue-tint" />
                     <CardPortfolio />
-                    <button>PORTFOLIO</button>
+                    <button><h5>PORTFOLIO</h5></button>
                 </div>
             </Link>
             <Link to="/services/">
                 <div className="card-box">
                     <div className="light-blue-tint" />
                     <CardServices />
-                    <button>SERVICES</button>
+                    <button><h5>SERVICES</h5></button>
                 </div>
             </Link>
         </div>

@@ -1,3 +1,5 @@
+@import "../../styles/media-queries.scss";
+
 .options-block{
     margin: 0 0 5rem 0;
 
@@ -88,9 +90,9 @@
     
                 button{
                     background: transparent;
-                    border: 0.125rem solid #4E6A7E;
+                    border: 0.125rem solid $secondary-color;
                     border-radius: 0.125rem;
-                    color: #4E6A7E;
+                    color: $secondary-color;
                     cursor: pointer;
                     font-size: 0.875rem;
                     margin: 0.75rem 0 0 1rem;
@@ -98,7 +100,8 @@
                     transition: all 0.1s;
     
                     &:hover{
-                        background: #4E6A7E;
+                        background: $primary-color;
+                        border: 0.125rem solid $primary-color;
                         color: white;
                     }
                 }
