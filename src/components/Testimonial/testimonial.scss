@@ -1,10 +1,20 @@
+@import "../../styles/media-queries.scss";
+
 .testimonial-block{
     align-content: center;
     background: #587D71;
     display: flex;
     justify-content: center;
-    padding: 5rem 0;
+    padding: 6rem 0;
     text-align: center;
+
+    @media (max-width: $breakpoint-tablet) {
+        padding: 5.5rem 0;
+    }
+
+    @media (max-width: $breakpoint-phone) {
+        padding: 5rem 0;
+    }
 
     .testimonial-inner{
         align-items: center;

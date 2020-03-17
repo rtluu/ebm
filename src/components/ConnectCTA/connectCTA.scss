@@ -7,6 +7,14 @@
     min-height: 32rem;
     position: relative;
 
+    @media (max-width: $breakpoint-tablet) {
+        min-height: 30rem;
+    }
+
+    @media (max-width: $breakpoint-phone) {
+        min-height: 28rem;
+    }
+
     .cta-background{
         position: absolute;
         width: 100%;

@@ -8,14 +8,34 @@
     justify-content: center;
     text-align: center;
 
+    @media (max-width: $breakpoint-phone) {
+        margin: 0 0 7rem 0;
+    }
+
+    @media (max-width: $breakpoint-phone) {
+        margin: 0 0 5rem 0;
+    }
+
     .page-cards{
         display: grid;
         grid-column-gap: 2.33%;
         grid-template-columns: 31% 31% 31%;
+        margin-left: 2.33%;
         max-width: 50rem;
         width: 90%;
 
+        @media (max-width: $breakpoint-phone) {
+            grid-template-columns: 100%;
+            justify-content: center;
+            margin-left: 0;
+            width: 70%;
+        }
+
         .card-box{
+            @media (max-width: $breakpoint-phone) {
+                margin: 2rem 0;
+            }
+
             cursor: pointer;
             position: relative;
 
