@@ -1,14 +1,36 @@
+@import "../../styles/media-queries.scss";
+
 .team-block{
     max-width: 50rem;
     margin: 0 auto 5rem auto;
     width: 90%;
 
+    @media (max-width: $breakpoint-tablet) {
+        margin: 0 auto 4rem auto;
+    }
+    @media (max-width: $breakpoint-tablet) {
+        margin: 0 auto 3rem auto;
+    }
+
     .teammate{
         display: flex;
         flex-direction: row;
+
+        @media (max-width: $breakpoint-tablet) {
+            flex-direction: column;
+            align-items: center;
+        }
         
         .teammate-image{
             width: 35%;
+            @media (max-width: $breakpoint-tablet) {
+                flex-direction: column;
+                width: 60%;
+            }
+        
+            @media (max-width: $breakpoint-phone) {
+                width: 80%;
+            }
         }
 
         .teammate-info{
@@ -16,16 +38,35 @@
             flex-direction: column;
             margin: 2rem 0 0 1rem;
             width: calc(65% - 2rem);
+            
+            @media (max-width: $breakpoint-tablet) {
+                margin: 2rem 0 0 0rem;
+                text-align: center;
+                width: 60%;
+            }
+
+            @media (max-width: $breakpoint-phone) {
+                width: 80%;
+            }
 
             .teammate-name{
                 color: #4E6A7E;
                 margin: 0 0 1.25rem 0;
                 text-align: left;
+
+                @media (max-width: $breakpoint-tablet) {
+                     margin: 0 0 1rem 0;
+                    text-align: center;
+                }
             }
     
             .teammate-description{
                 color: #C0C0C0;
                 padding-left: 1.5rem;
+
+                @media (max-width: $breakpoint-tablet) {
+                    padding-left: 0;
+                }
             }
         }
     }
