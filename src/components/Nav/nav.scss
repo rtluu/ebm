@@ -1,7 +1,7 @@
 @import "../../styles/media-queries.scss";
 
 nav{
-    background: white;
+    background: $white;
     display: flex !important;
     align-content: center;
     justify-content: center;
@@ -24,7 +24,7 @@ nav{
         }
 
         a{  
-            color: #BCBCBC;
+            color: $light-gray-color;
             font-size: 0.675rem;
             margin: 0 2rem;
             padding: 0.5rem;
@@ -68,7 +68,7 @@ nav{
                     top: -0.3125rem;
 
                     .line{
-                        background: white;
+                        background: $white;
                         transition: all 0.2s;
                         &:nth-child(1){
                             position: absolute;
@@ -156,7 +156,7 @@ nav{
 
                     a{
                         display: inline-block;
-                        color: white;
+                        color: $white;
                         padding: 1rem;
                         text-decoration: none;
                         transition: 0.1s all;

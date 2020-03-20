@@ -2,20 +2,45 @@
 
 .options-block{
     margin: 0 0 5rem 0;
+    @media (max-width: $breakpoint-tablet) {
+        margin: 0 0 2rem 0;
+    }
 
     .option{
         display: flex;
         justify-content: center;
         overflow: hidden;
-        padding: 4rem 0;
+        padding: 3rem 0;
         position: relative;
+        margin: 0 auto;
         width: 100%;
+       
+        @media (max-width: $breakpoint-tablet) {
+            padding: 2rem 0;
+            margin: 0 auto 2rem auto;
+           
+        }
 
         .option-inner{
             display: flex;
             flex-direction: row;
-            margin-left: 1rem;
             max-width: 55rem;
+            width: 90%;
+
+            &.partial{
+                flex-direction: row-reverse;
+
+                @media (max-width: $breakpoint-tablet) {
+                    flex-direction: column;
+                }
+            }
+
+            @media (max-width: $breakpoint-tablet) {
+                align-items: center;
+                flex-direction: column;
+                margin-left: 0;
+                width: 100%;
+            }
 
             &.true{
                 .option-image-holder{
@@ -43,6 +68,10 @@
                 max-width: 22rem;
                 position: relative;
                 width: calc(50% - 3rem);
+
+                @media (max-width: $breakpoint-tablet) {
+                    width: 50%;
+                }
     
                 .option-image-background{
                     padding-bottom: 100%;
@@ -77,6 +106,16 @@
                 position: relative;
                 width: 50%;
                 z-index: 1;
+
+                @media (max-width: 60rem) {
+                    margin: 1rem 1rem 0 1rem;
+                }
+
+                @media (max-width: $breakpoint-tablet) {
+                    margin: 1.5rem 0 0.5rem 0;
+                    text-align: center;
+                    width: 70%;
+                }
     
                 h2{
                     font-size: 2.5rem;
@@ -102,7 +141,7 @@
                     &:hover{
                         background: $primary-color;
                         border: 0.125rem solid $primary-color;
-                        color: white;
+                        color: $white;
                     }
                 }
             }

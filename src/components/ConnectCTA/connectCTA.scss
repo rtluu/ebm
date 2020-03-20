@@ -1,7 +1,7 @@
 @import "../../styles/media-queries.scss";
 
 .connectCTA-block{
-    color: white;
+    color: $white;
     display: flex;
     justify-content: center;
     min-height: 32rem;
@@ -31,7 +31,7 @@
         transform: translate(-50%, -50%);
 
         .connect-button{
-            background: white;
+            background: $white;
             border: none;
             border-radius: 0.125rem;
             color: $secondary-color;
@@ -42,7 +42,7 @@
 
             &:hover{
                 background: $primary-color;
-                color: white;
+                color: $white;
             }
         }
     }
