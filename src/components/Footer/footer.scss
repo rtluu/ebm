@@ -1,53 +1,161 @@
+@import "../../styles/media-queries.scss";
+
 .footer{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2.5rem 1.5rem;
-    width: 100%;
 
-    .copyright-box{
-        flex: 1;
+    .footer-main{
+        align-items: center;
+        box-sizing: content-box;
         display: flex;
-        min-width: -webkit-min-content;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 12rem;
+        padding: 3rem 0;
+        margin: 0 auto;
+        max-width: 62rem;
+        position: relative;
+        width: 90%;
 
-        .copyright{
-            color: #E4E4E4;
-            margin: 0 auto 0 0;
+        .who-box{
+            color: $light-gray-color;
+            max-width: 12rem;
+            width: 30%;
+        }    
+    
+        .ebm-logo-box{
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    
+        }
+    
+        .contact-box{
+            display: flex;
+            min-width: -webkit-min-content;
+            flex-direction: column;
+            text-align: left;
+            width: 30%;
+    
+            .contact{
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                margin: 0.125rem 0 0.125rem auto;
+
+                &.social{
+                    margin-right: -0.5rem;
+                }
+    
+                .contact-text{
+                    color: $light-gray-color;
+                    display: inline-block;
+                    margin-left: 0.375rem;
+                    position: relative;
+                    
+                    &:before{
+                        position: relative;
+                        transition: all 0.1s;
+                    }
+                    &:after{
+                        opacity: 0;
+                        position: absolute;
+                        right: 0;
+                        transition: all 0.1s;
+                        white-space: nowrap;
+                        pointer-events: none;
+                    }
+
+                    &:hover{
+                        &:before{
+                            opacity: 0;
+                        }
+                        &:after{
+                            opacity: 1; 
+                            pointer-events: all;
+                        }
+                    }
+
+                    &.phone{
+                        &:before{
+                            content: 'give us a call';
+                        }
+                        &:after{
+                            content: '240-760-8649';
+                        }
+                    }
+                    &.email{
+                        &:before{
+                            content: 'send us a message';
+                        }
+                        &:after{
+                            content: 'hello@eventsbymosaic.com';
+                        }
+                    }
+                } 
+
+                .social-link{
+                    display: inline-block;
+                    padding: 0.25rem;
+                    height: 1.25rem;
+                    margin: 0 0.25rem;
+
+                    &.instagram{
+                        &:hover{
+                            .footer-logo-color{
+                                fill: $insta-color;
+                            }
+                        }
+                    }
+                    &.facebook{
+                        &:hover{
+                            .footer-logo-color{
+                                fill: $fb-color;
+                            }
+                        }
+                    }
+                    &.pinterest{
+                        &:hover{
+                            .footer-logo-color{
+                                fill: $pinterest-color;
+                            }
+                        }
+                    }
+                }
+            }  
+        }
+    }
+    
+    .footer-sub{
+        background: $footer-sub-bg-color;
+        padding: 0.625rem;
+
+        .copyright-box{
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0 auto;
+    
+            .copyright{
+                color: $dark-gray-color;
+                font-size: 0.625rem;
+                letter-spacing: 0.125rem;
+                margin: 0;
+            }
+
+            .pipe{
+                background: $dark-gray-color;
+                height: 0.75rem;
+                margin: 0 0.5625rem 0 0.5rem;
+                width: 1px;
+            }
         }
     }
 
-    
-
-    .ebm-logo-box{
-        cursor: pointer;
-    }
-
-    .contact-box{
-        align-items: right;
-        flex: 1;
-        display: flex;
-        min-width: -webkit-min-content;
-        justify-content: flex-end;
-        flex-direction: column;
-        text-align: right;
-
-        .contact{
-            align-items: center;
-            display: flex;
-            justify-content: flex-end;
-            margin: 0.375rem 0 0.375rem auto;
-
-            .contact-text{
-                color: #E4E4E4;
-                display: inline-block;
-                margin-right: 0.325rem;
-        
-                &.email{
-                    margin-right: 0.325rem;
-                }
-            }
-        }  
-    }
 }
 

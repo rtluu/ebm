@@ -18,7 +18,7 @@
 
     .instagram-intro{
         align-items: center;
-        color: #FFC29E;
+        color: $primary-color;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,7 +27,7 @@
 
 
         .instagram-headline{
-            color: #BCBCBC;
+            color: $light-gray-color;
             margin-top: 1rem;
         }
 
@@ -49,7 +49,7 @@
                             transition: all 0.1s;
                             path{
                                 transition: all 0.1s;
-                                fill: #bc2a8d !important;
+                                fill: $insta-color;
                             }
                             
                         }

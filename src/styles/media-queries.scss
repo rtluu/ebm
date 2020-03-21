@@ -3,8 +3,31 @@ $breakpoint-1000: 62.5rem;
 $breakpoint-tablet: 50rem;
 $breakpoint-phone: 36rem;
 
+$white: #FFFFFF;
 $primary-color: #FFC29E;
 $secondary-color: #587D71;
 $dark-gray-color: #707070;
 $light-gray-color: #BCBCBC;
-$white: #ffffff;
+$footer-sub-bg-color: #E8E8E8;
+$insta-color: #bc2a8d;
+$fb-color: #4267B2;
+$pinterest-color: #E60023;
+
+
+.primary-logo-color{
+    fill: $primary-color;
+}
+
+.text-logo-color{
+    fill: $light-gray-color;
+}
+
+.footer-logo-color{
+    fill: $primary-color;
+    transition: all 0.1s;
+}
+
+.footer-icon-color{
+    fill: $light-gray-color;
+}
+
