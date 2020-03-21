@@ -32,14 +32,15 @@
         }
 
         .card-box{
-            @media (max-width: $breakpoint-phone) {
-                margin: 2rem 0;
-            }
-
             cursor: pointer;
             position: relative;
+            transition: $transition;
+            @media (max-width: $breakpoint-phone) {
+                margin: 2rem 0;
+            }            
 
             &:hover{
+                box-shadow: $box-shadow;
                 .light-blue-tint{
                     background: rgba(88,125,113,0.05);
                 }
@@ -50,7 +51,7 @@
             }
 
             button{
-                background: rgba(255,255,255,1);
+                background: $white;
                 border: 0;
                 border-radius: 0.0625rem;
                 bottom: 1rem;
@@ -60,7 +61,7 @@
                 padding: 0.5rem 1rem;
                 position: absolute;
                 transform: translateX(-50%);
-                transition: all 0.2s;
+                transition: $transition;
                 z-index: 3;  
             }   
         }

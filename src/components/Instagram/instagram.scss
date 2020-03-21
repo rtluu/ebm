@@ -46,9 +46,9 @@
                 .insta-link{
                     .insta-icon{
                         svg{
-                            transition: all 0.1s;
+                            transition: $transition;
                             path{
-                                transition: all 0.1s;
+                                transition: $transition;
                                 fill: $insta-color;
                             }
                             
@@ -58,7 +58,7 @@
                         background: radial-gradient(circle at 20% 107%, #fd5949 0%, #d6249f 50%, #285AEB 90%);
                         -webkit-background-clip: text;
                         -webkit-text-fill-color: transparent;
-                        transition: all 0.1s;
+                        transition: $transition;
                     }
                 }
                 
@@ -69,21 +69,21 @@
                 display: flex;
                 position: relative;
                 flex-direction: row;
-                transition: all 0.1s;
+                transition: $transition;
 
                 .insta-icon{
                     margin-bottom: -0.125rem;
                     margin-right: 0.375rem;
                     position: relative;
-                    transition: all 0.1s;
+                    transition: $transition;
                     height: 1.25rem;
                     width: 1.25rem;
                 }
     
                 .insta-profile{
-                   color: #BCBCBC;
+                   color: $light-gray-color;
                    margin-top: -0.0675rem;
-                   transition: all 0.1s;
+                   transition: $transition;
                 }
             }
         }    
@@ -94,16 +94,17 @@
         justify-content: center;
         max-width: 90%;
         flex-wrap: wrap;
-        transition: all 0.1s;
+        transition: $transition;
 
         .insta-link{
             margin: 0.5rem;
             min-height: 10rem;
             min-width: 10rem;
             position: relative;
-            transition: all 0.1s;
+            transition: $transition;
 
             &:hover{
+                box-shadow: $box-shadow;
                 .dark-blue-tint{
                     background: rgba(88,125,113,0.08);
                 }

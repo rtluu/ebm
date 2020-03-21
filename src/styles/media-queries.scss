@@ -12,6 +12,9 @@ $footer-sub-bg-color: #E8E8E8;
 $insta-color: #bc2a8d;
 $fb-color: #4267B2;
 $pinterest-color: #E60023;
+$box-shadow: 0 1rem 1.75rem -0.5rem rgba(0,0,0,0.3);
+$text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+$transition: all 0.2s;
 
 
 .primary-logo-color{
@@ -24,7 +27,7 @@ $pinterest-color: #E60023;
 
 .footer-logo-color{
     fill: $primary-color;
-    transition: all 0.1s;
+    transition: $transition;
 }
 
 .footer-icon-color{

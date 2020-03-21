@@ -9,12 +9,12 @@ const Footer = () => (
     <footer className="footer">
 
         <div className="footer-main">
-            <div className="who-box">
-                <p className="who-text">Event planning & production in DC, Maryland, Virgina, and wherever celebration takes us.</p>
-            </div>
-
             <div className="ebm-logo-box">
                 <FooterLogo />
+            </div>
+
+            <div className="who-box">
+                <p className="who-text">Event planning & production in DC, Maryland, Virgina, and wherever celebration takes us.</p>
             </div>
 
             <div className="contact-box">

@@ -79,7 +79,7 @@ p{
     pointer-events: none;
     top: 0;
     z-index: 1;
-    transition: all 0.2s;
+    transition: $transition;
 }
 
 .dark-blue-tint{

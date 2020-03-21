@@ -42,7 +42,7 @@ nav{
         position: absolute;
         right: 0.75rem;
         top: 1rem;
-        transition: all 0.1s;
+        transition: $transition;
         z-index: 2;
 
         @media (max-width: $breakpoint-tablet) {
@@ -57,7 +57,7 @@ nav{
                 &:hover{
                     .line-holder{
                         .line{
-                            transition: all 0.1s;
+                            transition: $transition;
                             background: $secondary-color;
                         }
                     }
@@ -69,7 +69,7 @@ nav{
 
                     .line{
                         background: $white;
-                        transition: all 0.2s;
+                        transition: $transition;
                         &:nth-child(1){
                             position: absolute;
                             transform: rotate(45deg);
@@ -102,7 +102,7 @@ nav{
             &:hover{
                 .line-holder{
                     .line{
-                        transition: all 0.1s;
+                        transition: $transition;
                         background: $primary-color;
                     }
                 }   
@@ -111,7 +111,7 @@ nav{
             .line-holder{
                 position: relative;
                 .line{
-                    transition: all 0.2s;
+                    transition: $transition;
                     background: $secondary-color;
                     height: 3px;
                     margin: 0.25rem;
@@ -159,11 +159,11 @@ nav{
                         color: $white;
                         padding: 1rem;
                         text-decoration: none;
-                        transition: 0.1s all;
+                        transition: $transition;
 
                         &:hover{
                             color: $secondary-color;
-                            transition: 0.1s all;
+                            transition: $transition;
                         }
                     }
                 }

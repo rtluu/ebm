@@ -9,29 +9,47 @@
         flex-direction: row;
         justify-content: space-between;
         height: 12rem;
-        padding: 3rem 0;
+        padding: 4rem 0;
         margin: 0 auto;
         max-width: 62rem;
         position: relative;
         width: 90%;
 
-        .who-box{
-            color: $light-gray-color;
-            max-width: 12rem;
-            width: 30%;
-        }    
+        @media (max-width: $breakpoint-phone) {
+            flex-direction: column;
+            height: auto;
+            padding: 4rem 0 2rem 0;
+        }
     
         .ebm-logo-box{
             align-items: center;
-            cursor: pointer;
             display: flex;
             flex-direction: column;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-    
+
+            @media (max-width: $breakpoint-phone) {
+                top: 0;
+                left: 0;
+                position: relative;
+                transform: translate(0,0);
+            }
         }
+
+        .who-box{
+            color: $light-gray-color;
+            max-width: 12rem;
+            width: 30%;
+
+            @media (max-width: $breakpoint-phone) {
+               text-align: center;
+               margin: 2rem auto 1rem auto;
+               max-width: 20rem;
+               width: 70%;
+            }
+        }    
     
         .contact-box{
             display: flex;
@@ -39,6 +57,11 @@
             flex-direction: column;
             text-align: left;
             width: 30%;
+
+            @media (max-width: $breakpoint-phone) {
+                text-align: center;
+                width: 70%;
+            }
     
             .contact{
                 align-items: center;
@@ -47,8 +70,18 @@
                 justify-content: flex-end;
                 margin: 0.125rem 0 0.125rem auto;
 
+                @media (max-width: $breakpoint-phone) {
+                    display: block;
+                    margin: 0.125rem auto;
+                    text-align: center;
+                    width: 70%;
+                }
+
                 &.social{
                     margin-right: -0.5rem;
+                    @media (max-width: $breakpoint-phone) {
+                        margin: 0.5rem auto;
+                    }
                 }
     
                 .contact-text{
@@ -59,30 +92,36 @@
                     
                     &:before{
                         position: relative;
-                        transition: all 0.1s;
+                        transition: $transition;
                     }
                     &:after{
                         opacity: 0;
                         position: absolute;
                         right: 0;
-                        transition: all 0.1s;
+                        transition: $transition;
                         white-space: nowrap;
                         pointer-events: none;
                     }
 
-                    &:hover{
-                        &:before{
-                            opacity: 0;
-                        }
-                        &:after{
-                            opacity: 1; 
-                            pointer-events: all;
+                    @media (min-width: $breakpoint-phone) {
+                        &:hover{
+                            &:before{
+                                opacity: 0;
+                            }
+                            &:after{
+                                opacity: 1; 
+                                pointer-events: all;
+                            }
                         }
                     }
 
                     &.phone{
                         &:before{
                             content: 'give us a call';
+
+                            @media (max-width: $breakpoint-phone) {
+                                content: '240-760-8649';
+                            }
                         }
                         &:after{
                             content: '240-760-8649';
@@ -91,6 +130,10 @@
                     &.email{
                         &:before{
                             content: 'send us a message';
+
+                            @media (max-width: $breakpoint-phone) {
+                                content: 'hello@eventsbymosaic.com';
+                            }
                         }
                         &:after{
                             content: 'hello@eventsbymosaic.com';
