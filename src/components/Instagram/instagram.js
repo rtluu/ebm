@@ -11,9 +11,7 @@ const Instagram = () => (
     <div className="instagram-block">
         <div className="instagram-intro head">
             <h2>Get Social</h2>
-            <a href="https://www.instagram.com/eventsbymosaic/" target="_blank" rel="noopener noreferrer">
-                <h5 className="instagram-headline">FOLLOW US ON INSTAGRAM</h5>
-            </a>
+            <h5 className="instagram-headline">FOLLOW US ON INSTAGRAM</h5>
         </div>
 
         <div className="instagram-pics">

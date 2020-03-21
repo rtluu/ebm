@@ -1,0 +1,36 @@
+$breakpoint-1200: 75rem;
+$breakpoint-1000: 62.5rem;
+$breakpoint-tablet: 50rem;
+$breakpoint-phone: 36rem;
+
+$white: #FFFFFF;
+$primary-color: #FFC29E;
+$secondary-color: #587D71;
+$dark-gray-color: #707070;
+$light-gray-color: #BCBCBC;
+$footer-sub-bg-color: #E8E8E8;
+$insta-color: #bc2a8d;
+$fb-color: #4267B2;
+$pinterest-color: #E60023;
+$box-shadow: 0 1rem 1.75rem -0.5rem rgba(0,0,0,0.3);
+$text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+$transition: all 0.2s;
+
+
+.primary-logo-color{
+    fill: $primary-color;
+}
+
+.text-logo-color{
+    fill: $light-gray-color;
+}
+
+.footer-logo-color{
+    fill: $primary-color;
+    transition: $transition;
+}
+
+.footer-icon-color{
+    fill: $light-gray-color;
+}
+

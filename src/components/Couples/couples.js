@@ -13,45 +13,45 @@ const Couples = () => (
             <Link to="/weddings/olivia-tj">
                 <div className="couple-image">
                     <CoupleOT />
-                    <div className="light-blue-tint" />
+                    <div className="tint" />
+                    <h2>O+T</h2>
                 </div>
-                <h2>O+T</h2>
             </Link>
         </div>
         <div className="couple">
             <Link to="/weddings/sirley-lamont">
                 <div className="couple-image">
                     <CoupleSL />
-                    <div className="light-blue-tint" />
+                    <div className="tint" />
+                    <h2>S+L</h2>
                 </div>
-                <h2>S+L</h2>
             </Link>
         </div>
         <div className="couple">
             <Link to="/weddings/abigail-caio">
                 <div className="couple-image">
                     <CoupleAC />
-                    <div className="light-blue-tint" />
+                    <div className="tint" />
+                    <h2>A+C</h2>
                 </div>
-                <h2>A+C</h2>
             </Link>
         </div>
         <div className="couple">
             <Link to="/weddings/marlena-kyle">
                 <div className="couple-image">
                     <CoupleMK />
-                    <div className="light-blue-tint" />
+                    <div className="tint" />
+                    <h2>M+K</h2>
                 </div>
-                <h2>M+K</h2>
             </Link>
         </div>
         <div className="couple">
             <Link to="/weddings/roshni-allwyn">
                 <div className="couple-image">
                     <CoupleRA />
-                    <div className="light-blue-tint" />
+                    <div className="tint" />
+                    <h2>R+A</h2>
                 </div>
-                <h2>R+A</h2>
             </Link>
         </div>
     </div>

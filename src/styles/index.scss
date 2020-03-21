@@ -1,3 +1,75 @@
+@import "./media-queries.scss";
+
+h1{
+    font-size: 5rem; 
+    line-height: 1.5;
+    @media (max-width: $breakpoint-1000) {
+        font-size: 4rem;
+        line-height: 1.375;
+    }
+    @media (max-width: $breakpoint-tablet) {
+        font-size: 3.25rem;
+        line-height: 1.325;
+    }
+    @media (max-width: $breakpoint-phone) {
+        font-size: 2.75rem; 
+        line-height: 1.25;
+    }
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.25;
+    @media (max-width: $breakpoint-tablet) {
+        font-size: 2.5rem;
+    }
+    @media (max-width: $breakpoint-phone) {
+        font-size: 2.25rem; 
+    }
+}
+h3{
+    font-size: 1.5rem;
+    line-height: 1.375;
+    @media (max-width: $breakpoint-tablet) {
+        font-size: 1.325rem;
+    }
+    @media (max-width: $breakpoint-phone) {
+        font-size: 1.25rem; 
+    }
+}
+h4{
+    font-size: 1.25rem;
+    line-height: 2;
+    @media (max-width: $breakpoint-tablet) {
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+    @media (max-width: $breakpoint-phone) {
+        font-size: 1rem; 
+        line-height: 1.5;
+    }
+}
+h5{
+    font-size: 1rem;
+    line-height: 1.1;
+    @media (max-width: $breakpoint-phone) {
+        font-size: 0.875rem; 
+    }
+}
+h6{
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.375; 
+    @media (max-width: $breakpoint-phone) {
+        font-size: 0.875rem; 
+        line-height: 1.25; 
+    }
+}
+
+
+
 .light-blue-tint{
     background: rgba(88,125,113,0.025);
     bottom: 0;
@@ -7,7 +79,7 @@
     pointer-events: none;
     top: 0;
     z-index: 1;
-    transition: all 0.2s;
+    transition: $transition;
 }
 
 .dark-blue-tint{
@@ -18,7 +90,6 @@
     right: 0;
     pointer-events: none;
     top: 0;
-    transition: 0.2s all;
     z-index: 1;
 }
 
