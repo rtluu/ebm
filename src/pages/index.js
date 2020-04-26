@@ -19,7 +19,7 @@ const IndexPage = () => (
         <EBMLogo />
       </div>
       <div className="hero-body">
-        <div className="dark-blue-tint" />
+        <div className="hero-img-tint" />
         <HeroHome />
         <h1 className="hero-headline">Event Planning <span className="and">&</span> Design</h1>
       </div>

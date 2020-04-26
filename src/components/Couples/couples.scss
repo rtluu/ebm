@@ -4,6 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 70rem;
 
     .couple{
         cursor: pointer;
@@ -13,8 +15,8 @@
         text-align: center;
         width: 50%;
 
-        @media (max-width: $breakpoint-tablet) {
-            margin: 1.25rem 0;
+        @media (max-width: 70.875rem) {
+            margin: 1.25rem;
             max-width: 18rem;
             width: 60%;
         }

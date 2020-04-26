@@ -36,7 +36,7 @@
         .teammate-info{
             display: flex;
             flex-direction: column;
-            margin: 2rem 0 0 1rem;
+            margin: 1rem 0 0 2rem;
             width: calc(65% - 2rem);
             
             @media (max-width: $breakpoint-tablet) {
@@ -63,6 +63,7 @@
             .teammate-description{
                 color: #C0C0C0;
                 padding-left: 1.5rem;
+                margin-bottom: 1rem;
 
                 @media (max-width: $breakpoint-tablet) {
                     padding-left: 0;

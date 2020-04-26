@@ -19,7 +19,7 @@ const Services = () => (
             </div>
             <div className="hero-body">
                 <h1 className="hero-headline">What we do</h1>
-                <div className="dark-blue-tint" />
+                <div className="hero-img-tint" />
                 <HeroServices />
             </div>
         </div>

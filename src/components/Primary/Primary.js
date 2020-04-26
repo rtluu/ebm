@@ -11,21 +11,21 @@ const Primary = () => (
         <div className="page-cards">
             <Link to="/about/">
                 <div className="card-box">
-                    <div className="light-blue-tint" />
+                    <div className="hero-img-tint" />
                     <CardAbout />
                     <button><h5>ABOUT</h5></button>
                 </div>
             </Link>
             <Link to="/portfolio/">
                 <div className="card-box">
-                    <div className="light-blue-tint" />
+                    <div className="hero-img-tint" />
                     <CardPortfolio />
                     <button><h5>PORTFOLIO</h5></button>
                 </div>
             </Link>
             <Link to="/services/">
                 <div className="card-box">
-                    <div className="light-blue-tint" />
+                    <div className="hero-img-tint" />
                     <CardServices />
                     <button><h5>SERVICES</h5></button>
                 </div>

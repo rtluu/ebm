@@ -6,7 +6,7 @@ import ConnectBg from "./connectBg";
 const ConnectCTA = () => (
     <div className="connectCTA-block">
         <ConnectBg />
-        <div className="dark-blue-tint" />
+        <div className="hero-img-tint" />
         <div className="connect-info">
             <h1>Let<span className="spacer" />'s plan your masterpiece!</h1>
             <Link to="/inquire/">

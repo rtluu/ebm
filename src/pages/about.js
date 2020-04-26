@@ -19,7 +19,7 @@ const About = () => (
       </div>
       <div className="hero-body">
         <h1 className="hero-headline">Who we are</h1>
-        <div className="dark-blue-tint" />
+        <div className="hero-img-tint" />
         <HeroAbout />
       </div>
     </div>

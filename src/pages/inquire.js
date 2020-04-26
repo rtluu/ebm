@@ -19,7 +19,7 @@ const Inquire = () => (
             </div>
             <div className="hero-body">
                 <h1 className="hero-headline">Contact us</h1>
-                <div className="dark-blue-tint" />
+                <div className="hero-img-tint" />
                 <HeroInquire />
             </div>
         </div>

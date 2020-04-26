@@ -55,7 +55,7 @@ const Form = () => {
                         <input type="occasion" name="occasion" className="form-control" id="occasion" aria-describedby="occasion" required="required" placeholder="Wedding, party, etc." />
                     </div>
                     <div className="form-group">
-                        <label for="venue">Have you booked venue?</label>
+                        <label for="venue">Have you booked a venue?</label>
                         <input type="text" name="venue" className="form-control" id="venue" placeholder="'The W' or 'Not yet'" />
                     </div>
                     <div className="form-group">

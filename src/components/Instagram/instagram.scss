@@ -105,8 +105,8 @@
 
             &:hover{
                 box-shadow: $box-shadow;
-                .dark-blue-tint{
-                    background: rgba(88,125,113,0.08);
+                .hero-img-tint{
+                    background: $hero-img-hover-color;
                 }
             }
         }

@@ -19,7 +19,7 @@ const Weddings = () => (
             </div>
             <div className="hero-body">
                 <h1 className="hero-headline">Our couples</h1>
-                <div className="dark-blue-tint" />
+                <div className="hero-img-tint" />
                 <HeroPortfolio />
             </div>
         </div>

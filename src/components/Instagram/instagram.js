@@ -16,23 +16,23 @@ const Instagram = () => (
 
         <div className="instagram-pics">
             <a className="insta-link" href="https://www.instagram.com/eventsbymosaic/" target="_blank" rel="noopener noreferrer">
-                <div className="dark-blue-tint" />
+                <div className="hero-img-tint" />
                 <Insta1 />
             </a>
             <a className="insta-link" href="https://www.instagram.com/eventsbymosaic/" target="_blank" rel="noopener noreferrer">
-                <div className="dark-blue-tint" />
+                <div className="hero-img-tint" />
                 <Insta2 />
             </a>
             <a className="insta-link" href="https://www.instagram.com/eventsbymosaic/" target="_blank" rel="noopener noreferrer">
-                <div className="dark-blue-tint" />
+                <div className="hero-img-tint" />
                 <Insta3 />
             </a>
             <a className="insta-link" href="https://www.instagram.com/eventsbymosaic/" target="_blank" rel="noopener noreferrer">
-                <div className="dark-blue-tint" />
+                <div className="hero-img-tint" />
                 <Insta4 />
             </a>
             <a className="insta-link" href="https://www.instagram.com/eventsbymosaic/" target="_blank" rel="noopener noreferrer">
-                <div className="dark-blue-tint" />
+                <div className="hero-img-tint" />
                 <Insta5 />
             </a>
         </div>
