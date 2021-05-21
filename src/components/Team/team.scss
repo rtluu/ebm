@@ -2,7 +2,7 @@
 
 .team-block{
     max-width: 50rem;
-    margin: 0 auto 5rem auto;
+    margin: 5rem auto 5rem auto;
     width: 90%;
 
     @media (max-width: $breakpoint-tablet) {
@@ -19,6 +19,15 @@
         @media (max-width: $breakpoint-tablet) {
             flex-direction: column;
             align-items: center;
+        }
+
+        .teammate-name-mobile{
+            display: none;
+            color: #4E6A7E;
+            @media (max-width: $breakpoint-tablet) {
+                display: block;
+                margin: 3rem 0 1rem 0
+            }
         }
         
         .teammate-image{
@@ -57,7 +66,9 @@
                 @media (max-width: $breakpoint-tablet) {
                      margin: 0 0 1rem 0;
                     text-align: center;
+                    display: none;
                 }
+
             }
     
             .teammate-description{

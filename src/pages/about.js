@@ -9,7 +9,7 @@ import "../components/Hero/hero.scss";
 
 const About = () => (
   <Layout>
-    <SEO title="About | Events by Mosaic" />
+    <SEO title="About | Kristina Luu" />
     <div className="hero-block">
       <div className="hero-head">
         <div className="hero-icon">
