@@ -1,34 +1,31 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import HeroHome from "../components/Hero/heroHome"
-import Intro from "../components/Intro/intro"
-import Primary from "../components/Primary/Primary"
-import Testimonial from "../components/Testimonial/testimonial"
-import Instagram from "../components/Instagram/instagram"
-import ConnectCTA from "../components/ConnectCTA/connectCTA"
-import EBMLogo from "../images/ebm-logo.inline.svg";
-import "../components/Hero/hero.scss"
-import "../styles/index.scss"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Intro from "../components/Intro/intro";
+import HeroAbout from "../components/Hero/heroAbout";
+import EBMIcon from "../images/ebm-icon.inline.svg";
+import Team from "../components/Team/team";
+import "../components/Hero/hero.scss";
+import "../styles/index.scss";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Events by Mosaic" />
+    <SEO title="About | Kristina Luu" />
     <div className="hero-block">
-      <div className="hero-logo">
-        <EBMLogo />
-      </div>
-      <div className="hero-body">
+      {/* <div className="hero-head">
+        <div className="hero-icon">
+          <EBMIcon />
+        </div>
+        <h3>ABOUT</h3>
+      </div> */}
+      {/* <div className="hero-body">
+        <h1 className="hero-headline">Who we are</h1>
         <div className="hero-img-tint" />
-        <HeroHome />
-        <h1 className="hero-headline">Event Planning <span className="and">&</span> Design</h1>
-      </div>
+        <HeroAbout />
+      </div> */}
     </div>
-    <Intro text="Events by Mosaic is a full service event planning studio based in Washington, DC. It's your big moment and we're ready to bring your vision to reality." />
-    <Primary />
-    <Testimonial />
-    <Instagram />
-    <ConnectCTA />
+    {/* <Intro text="Great events start with great collaboration. We are not only a team, but partners in bringing events to life throught the DMV and beyond. Together we have over a decade of experience in planning and orchestrating events that run the gamut." /> */}
+    <Team />
   </Layout>
 )
 

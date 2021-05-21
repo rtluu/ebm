@@ -24,9 +24,9 @@ const MarlenaKyle = () => (
         <SEO title="M+K | Events by Mosaic" />
         <div className="hero-block">
             <div className="hero-head">
-                <div className="hero-icon">
+                {/* <div className="hero-icon">
                     <EBMIcon />
-                </div>
+                </div> */}
                 <h3 className="couples-headline">Marlena & Kyle</h3>
             </div>
         </div>

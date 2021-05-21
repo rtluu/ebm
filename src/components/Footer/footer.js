@@ -8,7 +8,7 @@ import "./footer.scss";
 const Footer = () => (
     <footer className="footer">
 
-        <div className="footer-main">
+        {/* <div className="footer-main">
             <div className="ebm-logo-box">
                 <FooterLogo />
             </div>
@@ -34,11 +34,11 @@ const Footer = () => (
                     <a className="social-link pinterest" href="https://pinterest.com/eventsbymosaic"><PinterestIcon /></a>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         <div className="footer-sub">
             <div className="copyright-box">
-                <p className="copyright">©{new Date().getFullYear()} EVENTS BY MOSAIC</p>
+                <p className="copyright">©{new Date().getFullYear()} KRISTINA LUU</p>
                 <span className="pipe" />
                 <p className="copyright">ALL RIGHTS RESERVED</p>
             </div>

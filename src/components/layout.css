@@ -260,7 +260,7 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: inherit;
+  color: #FFC29E !important;
   font-family: "GreatVibes" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
