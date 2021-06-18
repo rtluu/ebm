@@ -72,9 +72,23 @@
             }
     
             .teammate-description{
-                color: #C0C0C0;
+                color: #999999;
                 padding-left: 1.5rem;
                 margin-bottom: 1rem;
+
+                &.no-space{
+                    margin-bottom: 0;
+                }
+
+                &.cta-link{
+                    a{
+                        color: #5e83d4;
+                        &:hover{
+                            color: #2b50a1;
+                        }
+                    }
+                    
+                }
 
                 @media (max-width: $breakpoint-tablet) {
                     padding-left: 0;
