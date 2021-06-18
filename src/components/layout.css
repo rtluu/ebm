@@ -260,7 +260,7 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: #FFC29E !important;
+  color: #5e83d4 !important;
   font-family: "GreatVibes" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -271,7 +271,7 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: #FFC29E !important;
+  color: #5e83d4 !important;
   font-family: "GreatVibes" !important;
   font-weight: 300;
   text-rendering: optimizeLegibility;
@@ -282,8 +282,8 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color:  #BCBCBC !important;
-  font-family: "Brandon" !important;
+  color: #5e83d4 !important;
+  font-family: "GreatVibes" !important;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }

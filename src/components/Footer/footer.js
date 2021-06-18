@@ -39,8 +39,6 @@ const Footer = () => (
         <div className="footer-sub">
             <div className="copyright-box">
                 <p className="copyright">©{new Date().getFullYear()} KRISTINA LUU</p>
-                <span className="pipe" />
-                <p className="copyright">ALL RIGHTS RESERVED</p>
             </div>
         </div>
 
